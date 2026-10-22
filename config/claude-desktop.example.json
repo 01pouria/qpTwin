@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "qptwin": {
+      "command": "/absolute/path/to/python",
+      "args": ["-m", "twindev_mcp.offline_stdio"],
+      "env": {
+        "TWINDEV_WORKSPACE": "/absolute/path/to/your/project"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+request_count,mean_service_ms,error_count
+1200,38.1,2
+1350,42.3,4
+1600,44.0,8

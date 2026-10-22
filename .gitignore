@@ -1,0 +1,90 @@
+# Python build products and caches
+build/
+dist/
+*.egg-info/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Coverage, logs and temporary output
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+*.tmp
+*.temp
+*.bak
+*~
+
+# Private environment, credentials, keys and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.kdbx
+credentials.json
+secrets.json
+service-account*.json
+.credentials/
+
+# Local qpTwin runtime state and snapshots
+.twindev/
+.qptwin/
+
+# Generated MCP client configurations may contain absolute local paths
+connection-presets/
+configs-generated/
+generated-mcp-configs/
+.cursor/
+.codex/
+.agents/
+.gemini/
+.roo/
+.mcp.json
+mcp_config.json
+opencode.json
+cline_mcp_settings.json
+
+# Real runtime/production telemetry (synthetic fixtures under examples/ stay tracked)
+production-telemetry/
+runtime-telemetry/
+telemetry-export*/
+trace-export*/
+*.otlp.json
+
+# Internal publication evidence retained locally, not published
+PUBLISH_WITH_CODEX_FA.md
+docs/PUBLICATION_PREFLIGHT.json
+docs/LIVE_TEST_RESULTS.json
+docs/QPTWIN_UNIVERSAL_CLIENT_VALIDATION.json
+docs/DELIVERY_REPORT_FA.md
+docs/RELEASE_EVALUATION_v0.2.md
+docs/LOCAL_MCP_VALIDATION_FA.md
+docs/FOUR_CLIENT_INTEGRATION_FA.md
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

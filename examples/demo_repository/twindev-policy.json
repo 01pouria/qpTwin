@@ -1,0 +1,1 @@
+{"forbidden_imports":[{"from":"backend/billing.py","to":"backend/app.py"}]}

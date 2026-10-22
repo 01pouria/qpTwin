@@ -1,0 +1,6 @@
+{
+  "forbidden_imports": [
+    {"from": "src/domain/*.py", "to": "src/infrastructure/*.py"},
+    {"from": "src/core/*.py", "to": "src/api/*.py"}
+  ]
+}

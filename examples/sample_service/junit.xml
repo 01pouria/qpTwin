@@ -1,0 +1,1 @@
+<testsuite tests="3" failures="0" errors="0" skipped="0"><testcase classname="service" name="test_a"/><testcase classname="service" name="test_b"/><testcase classname="service" name="test_c"/></testsuite>

@@ -1,0 +1,1 @@
+{"openapi":"3.1.0","info":{"title":"Demo API","version":"1.0"},"paths":{"/health":{"get":{"responses":{"200":{"description":"OK"}}}},"/invoices":{"post":{"responses":{"201":{"description":"created"}}}}}}
