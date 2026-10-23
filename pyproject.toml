@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 authors = [{name="Pouriya Khalilian"}]
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
-keywords = ["mcp", "architecture", "code-analysis", "ai-agents", "developer-tools"]
+keywords = ["mcp", "digital-twin", "software-engineering", "architecture", "code-analysis", "ai-agents", "developer-tools"]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
