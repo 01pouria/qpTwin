@@ -2,7 +2,7 @@
 
 ## Product
 
-**qpTwin** is an architecture-intelligence and change-risk analysis platform for AI-assisted software engineering.
+**qpTwin** is a software engineering digital twin for AI-assisted development, combining architecture intelligence, change-risk analysis, and simulation.
 
 ## Developer and copyright owner
 

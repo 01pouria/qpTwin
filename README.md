@@ -1,8 +1,8 @@
 # qpTwin Community
 
-**Architecture intelligence and change-risk analysis for AI-assisted software engineering.**
+**A software engineering digital twin for AI-assisted development.**
 
-qpTwin is a Model Context Protocol (MCP) server developed by **Pouriya Khalilian**. It gives coding agents a structured view of a repository before and after a change: architecture discovery, dependency and endpoint analysis, change-impact mapping, API contract review, bounded capacity simulation, quality evidence, and security-oriented review.
+qpTwin is a Model Context Protocol (MCP) server developed by **Pouriya Khalilian**. It builds an architecture-aware, simulation-driven digital twin of a software repository, giving coding agents a structured view before and after a change: architecture discovery, dependency and endpoint analysis, change-impact mapping, API contract review, bounded capacity simulation, quality evidence, and security-oriented review. In Community v0.4.0, the twin is derived from repository code and supplied engineering evidence; continuous synchronization with a running production system is a planned platform capability.
 
 Version **0.4.0** is the current Apache-2.0 Community release. It is designed for professional, local-first engineering workflows and integrates with MCP-capable development tools over stdio.
 
