@@ -15,7 +15,7 @@ dependencies = []
 
 [project.optional-dependencies]
 mcp = ["mcp>=2.0,<3.0"]
-test = ["pytest>=8"]
+test = ["pytest>=8", "jsonschema>=4.23,<5"]
 
 [project.scripts]
 twindev-mcp = "twindev_mcp.server:main"
