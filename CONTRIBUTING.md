@@ -1,9 +1,41 @@
 # Contributing to qpTwin
 
-Thank you for your interest in qpTwin. The Community core is released under the [Apache License 2.0](LICENSE).
+Thank you for helping improve qpTwin Community. Contributions may include bug reports, reproducible test cases, documentation, integrations, and source changes.
 
-Please open an issue before large changes. Bug reports, reproducible cases and documentation suggestions are welcome. Never include customer source code, credentials, production telemetry or proprietary architecture data.
+## Before opening a change
 
-**Code contributions:** The maintainer is establishing a formal contribution-rights policy before merging third-party source contributions that may later be included in separately licensed commercial editions. Until that policy is published, please discuss proposed code PRs with the maintainer first. Copyright in a contribution remains with its author unless separately granted or assigned under agreed terms; submitting a contribution does not automatically grant exclusive ownership to the maintainer.
+- Search existing issues and pull requests.
+- Open an issue for substantial features, protocol changes, or architectural changes.
+- Keep each pull request focused on one problem.
+- Never include credentials, private source code, production telemetry, customer data, or generated machine-specific configuration.
 
-Local checks: `python -m pip install -e '.[test]'` then `python -m pytest -q`.
+## Development setup
+
+```bash
+python -m venv .venv
+python -m pip install -e '.[test]'
+python -m pytest -q
+python scripts/demo_review.py
+```
+
+The demo must return `BLOCKED_FOR_REVIEW` for its intentionally incompatible API change.
+
+## Pull-request requirements
+
+- Explain the problem, approach, and compatibility impact.
+- Add or update tests for behavioral changes.
+- Preserve Python 3.11+ compatibility.
+- Preserve workspace safety boundaries and bounded processing.
+- Update English and Persian documentation when user-facing behavior changes.
+- Use qpTwin as the public product name; retain legacy internal identifiers only where compatibility requires them.
+- Confirm that new dependencies and copied materials have compatible licenses.
+
+## Licensing
+
+qpTwin Community is licensed under [Apache License 2.0](LICENSE). Unless a separate written agreement applies, submitted contributions are provided under the project's applicable contribution and licensing terms. Contributors retain copyright in their work.
+
+Commercial or dual-licensed use of a contribution may require an additional contributor agreement. The maintainer will identify that requirement before accepting affected code.
+
+## Security reports
+
+Do not open public issues for vulnerabilities. Follow the private reporting process in [SECURITY.md](SECURITY.md).

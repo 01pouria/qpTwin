@@ -1,25 +1,34 @@
-# qpTwin licensing model / مدل مجوز و تجاری‌سازی
+# qpTwin editions and commercial use
+
+qpTwin follows an open-core edition strategy that keeps the Community engineering core broadly usable while allowing additional commercial products and services.
 
 ## qpTwin Community
 
-- License: **Apache License 2.0**.
-- Free public MCP core. Commercial use, forks and redistributions are allowed subject to the Apache-2.0 terms.
-- Existing releases stay Apache-2.0 licensed for recipients even if future versions adopt another licensing model.
+- Licensed under **Apache License 2.0**.
+- Includes the local MCP server, architecture discovery, change-impact analysis, contract review, bounded simulations, evidence review, security-oriented checks, tests, examples, and client configuration tooling.
+- May be used, modified, embedded, and redistributed—including commercially—under the Apache-2.0 terms.
+- Community releases remain available under the license published with each release.
 
-## Potential future paid products
+## Commercial offerings
 
-- **qpTwin Pro:** new proprietary advanced engineering modules, if separately developed or lawfully licensed.
-- **qpTwin Enterprise:** private-deployment tooling, organizational controls, audit and support, if developed later.
-- **qpTwin Cloud:** hosted managed service offered under separate terms.
+Commercial editions and services may extend qpTwin with capabilities such as:
 
-These are **product possibilities, not features currently implemented**. Commercial offerings can have separate licensing terms. A closed-source version may incorporate Apache-2.0 code provided applicable conditions are met; copyright/license attribution and NOTICE obligations for that code must be respected. No existing user rights under released Apache versions are rescinded.
+- managed deployment and operations;
+- enterprise identity and access control;
+- multi-tenant isolation and audit trails;
+- organization-wide policy management;
+- advanced runtime integrations and observability;
+- support, training, and service-level commitments;
+- separately developed analysis and governance modules.
 
-## Contributions
+Commercial capabilities may be distributed under separate agreements. Apache-2.0 components included in those offerings retain their applicable notices and license obligations.
 
-Issues and bug reports are welcome. Before accepting external *code* contributions intended for dual licensing or proprietary redistribution, adopt and have counsel review a suitable contributor license agreement (CLA) or equivalent rights-grant procedure. The Apache-2.0 default contribution mechanism alone does not transfer contributors' copyrights to the maintainer. Avoid representing external contributors' work as exclusively owned by the project author.
+## Contributions and dual licensing
 
-## Trademarks
+External contributions remain subject to the repository contribution policy. If a contribution is intended for both Community and separately licensed editions, the project may require an additional contributor agreement that clearly documents the necessary rights.
 
-The Apache-2.0 software license does not itself grant trademark rights in the qpTwin name or logos. Trademark protection/availability requires separate assessment.
+## Brand
 
-**Developer / announced original owner:** Pouriya Khalilian. This guidance is informational and not legal advice.
+The qpTwin name and product identity are separate from the Apache-2.0 copyright license. Contact the project owner for commercial branding, partnership, managed-service, or enterprise licensing discussions.
+
+**Developer and copyright owner:** Pouriya Khalilian.

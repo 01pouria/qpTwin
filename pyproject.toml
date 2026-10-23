@@ -5,13 +5,30 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "qptwin-mcp"
 version = "0.4.0"
-description = "qpTwin universal MCP: architecture-aware simulation and evidence tools for AI coding agents"
+description = "Architecture intelligence and change-risk analysis for AI coding agents"
 readme = "README.md"
 requires-python = ">=3.11"
 authors = [{name="Pouriya Khalilian"}]
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
+keywords = ["mcp", "architecture", "code-analysis", "ai-agents", "developer-tools"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Quality Assurance",
+]
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/01pouria/qpTwin"
+Repository = "https://github.com/01pouria/qpTwin.git"
+Issues = "https://github.com/01pouria/qpTwin/issues"
+Documentation = "https://github.com/01pouria/qpTwin#readme"
 
 [project.optional-dependencies]
 mcp = ["mcp>=2.0,<3.0"]

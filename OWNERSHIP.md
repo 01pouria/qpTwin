@@ -1,19 +1,29 @@
-# qpTwin — Authorship, licensing and ownership
+# qpTwin ownership and licensing
 
-**Project:** qpTwin Universal MCP
+## Product
 
-**Original developer / declared copyright owner:** Pouriya Khalilian.
+**qpTwin** is an architecture-intelligence and change-risk analysis platform for AI-assisted software engineering.
 
-**Copyright:** Copyright 2026 Pouriya Khalilian.
+## Developer and copyright owner
 
-**Project independence:** qpTwin is, according to its developer, independently owned and not published on behalf of Rastano or another company. This is the developer's representation, not an independent legal determination.
+qpTwin was created and is developed by **Pouriya Khalilian**.
 
-## Community license
+Copyright © 2026 Pouriya Khalilian.
 
-The qpTwin Community source code in this distribution is offered under the **Apache License, Version 2.0**. See [LICENSE](LICENSE) and [NOTICE](NOTICE). This grant permits commercial use, modification and distribution, subject to license conditions, including attribution and notices. It is not a trademark license.
+## Community edition
 
-## Future commercial offerings
+The source code published in qpTwin Community is licensed under the **Apache License, Version 2.0**. The license permits use, modification, distribution, and commercial use subject to its conditions, including preservation of applicable copyright, license, and NOTICE information.
 
-Pouriya Khalilian may publish future proprietary features, enterprise products, hosted services, separate modules, or commercially licensed releases, provided rights in all included code allow it. Previously released Apache-2.0 versions cannot be retroactively withdrawn from recipients. Open-source contributors retain their own copyright unless they separately assign it or grant additional rights.
+See [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-Third-party dependencies, code and assets must be reviewed for their own applicable licensing and rights before publication.
+## Contributions
+
+Contributors retain copyright in their contributions unless a separate written agreement states otherwise. Contributions accepted under the repository's standard process are governed by the applicable project license and contribution terms.
+
+## Product name
+
+The Apache-2.0 software license does not grant rights to use qpTwin product names, logos, or other brand identifiers as trademarks. Trademark use and commercial distribution terms may be addressed separately.
+
+## Commercial editions
+
+Commercial services, managed deployments, enterprise controls, and separately developed modules may be offered under additional terms. Publishing commercial editions does not change the Apache-2.0 rights already granted for released Community code.

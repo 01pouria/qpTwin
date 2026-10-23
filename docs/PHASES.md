@@ -1,28 +1,67 @@
-# qpTwin delivery and readiness roadmap — status at v0.4.0
+# qpTwin product roadmap
 
-## Phase 0: product scope and baseline
-Concept articulated: architecture-aware, simulation-driven Vibe Coding assistance. B2B security requirements and success metrics proposed. No customer agreement or real pilot completed.
+This roadmap separates capabilities delivered in qpTwin Community v0.4.0 from planned platform and commercial layers.
 
-## Phase 1: static architecture twin — prototype delivered
-Read-only source inventory, static Python/JS/TS imports and routes, change impact, local snapshots, explicit boundary policy. Automated tests. Limitations: best-effort parsing, incomplete framework coverage, no runtime architecture reconciliation.
+## Available in Community v0.4.0
 
-## Phase 2: scenario and observable proxy — extended prototype delivered
-Bounded single service M/M/c simulation and sequential multi-stage event simulation; Monte Carlo assumptions explicit. Offline aggregated CSV telemetry, OTLP JSON metric aggregation, time-split holdout p95 validation. Limitations: not a full general digital twin; cannot model all software behavior, concurrency semantics, DB contention or GPU inference.
+### Architecture intelligence
 
-## Phase 3: coding agent pipeline — preview delivered
-23 locally callable MCP tools, local patch impact, conservative OpenAPI compatibility comparison and combined evidence review. Synthetic demos and automated stdio protocol tests are included. Twelve reviewable MCP client configuration profiles are generated, but execution inside every supported client UI has not been independently verified.
+- Bounded inventory of Python, JavaScript, and TypeScript source trees
+- Import, dependency, and supported route discovery
+- Change-impact analysis and validation-plan generation
+- Configurable architecture-boundary policies
+- Sanitized architecture metadata snapshots and comparison
 
-## Phase 4: production runtime twin — partially researched, not delivered
-Live streaming telemetry ingestion; online parameter assimilation; uncertainty bounds; drift detection; calibrated service dependencies; retries and fanout; cloud fault model; production validation.
+### Contracts, quality, and risk
 
-## Phase 5: enterprise and commercial release — not delivered
-RBAC, authenticated Streamable HTTP, true tenant separation, quotas, audit, supported deployment and backup/restore, SLO/SLA, support process, finance/billing integration.
+- OpenAPI JSON inventory and compatibility-risk comparison
+- Unified-diff analysis
+- JUnit evidence inspection and advisory release evaluation
+- Static risk indicators and CIA-oriented architecture review
+- Combined change-evidence reports
 
-## Phase 6: field proof — not delivered
-Independent QA and penetration testing, baseline comparison to other coding agents on actual PRs, real client interviews, B2B acceptance and economic analysis.
+### Simulation and observability
 
-## Go/No-Go gates
-- Local developer experiment: allowed with scoped non-sensitive code and full review.
-- External demonstration: allowed only as **engineering preview**, with known limitations disclosed.
-- Customer pilot: requires written permission, data handling agreement, threat model, pilot plan, suitable hosting.
-- Production sale/claim of accuracy: **No-Go**, pending Phases 4–6 and independent evidence.
+- Bounded M/M/c-style capacity simulation
+- Sequential multi-stage service simulation
+- Aggregate CSV calibration
+- Time-split holdout evaluation
+- Selected OTLP JSON metric aggregation
+
+### MCP and developer experience
+
+- 23 local MCP tools over stdio
+- Optional official MCP SDK adapter
+- 12 generated client configuration profiles
+- Automated tests across Python 3.11, 3.12, and 3.13
+- Synthetic example repositories and review workflows
+
+## Planned platform capabilities
+
+### Runtime intelligence
+
+- Streaming telemetry ingestion
+- Online calibration, drift detection, and uncertainty reporting
+- Richer dependency, retry, fan-out, database, and failure models
+- Trace-to-architecture reconciliation
+
+### Enterprise controls
+
+- Authenticated remote transport
+- Role-based access control and policy administration
+- Tenant isolation, quotas, and tamper-evident audit
+- Deployment automation, backup, restore, and operational health controls
+
+### Engineering ecosystem
+
+- CI and pull-request integrations with artifact provenance
+- Broader framework and language coverage
+- Organization-level architecture baselines
+- Extended reporting, dashboards, and governance workflows
+
+## Release principles
+
+- Community capabilities remain documented, testable, and reproducible.
+- New analysis models include their assumptions and validation evidence.
+- Security-sensitive platform features ship with explicit threat models and deployment guidance.
+- Commercial layers may extend the platform without removing the rights granted for existing Apache-2.0 Community releases.
